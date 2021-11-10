@@ -11,7 +11,7 @@
       "name": "inputTable",
       "direction": "in",
       "type": "table",
-      "tableName": "subscriptions",
+      "tableName": "ubuntuprosubscriptions",
       "partitionKey": "0",
       "connection": "StorageAccountConnection"
     },
@@ -19,7 +19,7 @@
       "name": "outputTable",
       "direction": "out",
       "type": "table",
-      "tableName": "subscriptions",
+      "tableName": "ubuntuprosubscriptions",
       "partitionKey": "0",
       "connection": "StorageAccountConnection"
     }
