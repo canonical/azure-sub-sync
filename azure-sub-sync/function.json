@@ -1,0 +1,27 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "timer",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "0 0 * * * *"
+    },
+    {
+      "name": "inputTable",
+      "direction": "in",
+      "type": "table",
+      "tableName": "ubuntuprosubscriptions",
+      "partitionKey": "0",
+      "connection": "StorageAccountConnection"
+    },
+    {
+      "name": "outputTable",
+      "direction": "out",
+      "type": "table",
+      "tableName": "ubuntuprosubscriptions",
+      "partitionKey": "0",
+      "connection": "StorageAccountConnection"
+    }
+  ]
+}
