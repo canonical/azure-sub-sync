@@ -22,7 +22,8 @@ An Azure Function for syncing subscriptions with your Canonical private offer.
     [Azure Storage Explorer](https://docs.microsoft.com/en-us/azure/vs-azure-tools-storage-manage-with-storage-explorer?tabs=linux) to confirm
     that the storage table is populated with subscription IDs.
 
-6.  [[TO DO: How do they share the table with us?]]
+6.  Create a SAS URL and share it with us. [Follow this guide](./docs/SAS_URL.md) for more info
+    about how to create a SAL URL.
 
 ## Tagging
 
